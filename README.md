@@ -48,7 +48,7 @@ User → Secrets Manager → CloudTrail → CloudWatch → SNS → Email Alert
 ![CloudTrail Logs](images/Cloudtrail.png)
 
 ###  CloudWatch Filter
-![CloudWatch Filter](images/cloud_Watch_Filter.jpg)
+![CloudWatch Filter](images/Cloud_Watch_Filter.jpg)
 
 ###  SNS Confirmation
 ![SNS Confirmation](images/SNS-Confirmation.jpg)
