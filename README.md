@@ -45,7 +45,7 @@ User → Secrets Manager → CloudTrail → CloudWatch → SNS → Email Alert
 ![Secret Manager](images/Secret-Manager.png)
 
 ###  CloudTrail Logs
-![CloudTrail Logs](images/cloudtrail.png)
+![CloudTrail Logs](images/Cloudtrail.png)
 
 ###  CloudWatch Filter
 ![CloudWatch Filter](images/cloud_Watch_Filter.jpg)
