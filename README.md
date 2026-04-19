@@ -6,19 +6,20 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 This project demonstrates a **real-time security monitoring system** built on AWS.  
 It detects sensitive activity (like accessing secrets) and instantly notifies users via email.
 
 ---
 
-## 🚀 Architecture
+##  Architecture
 
 User → Secrets Manager → CloudTrail → CloudWatch → SNS → Email Alert
 
+![Architecture Diagram](images/Architecture.png)
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **AWS CloudTrail** – Tracks API activity  
 - **AWS CloudWatch** – Logs, metrics & alarms  
 - **AWS SNS** – Sends notifications  
@@ -27,7 +28,7 @@ User → Secrets Manager → CloudTrail → CloudWatch → SNS → Email Alert
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
 1. Store a secret in AWS Secrets Manager  
 2. Access event is logged by CloudTrail  
@@ -38,22 +39,28 @@ User → Secrets Manager → CloudTrail → CloudWatch → SNS → Email Alert
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-> Add screenshots here (from your PDF)
+###  Secret Manager
+![Secret Manager](images/Secret-Manager.png)
 
-```
-images/
-├── secret-manager.png
-├── cloudtrail.png
-├── cloudwatch.png
-├── sns.png
-├── email.png
-```
+###  CloudTrail Logs
+![CloudTrail Logs](images/cloudtrail.png)
+
+###  CloudWatch Filter
+![CloudWatch Filter](images/cloud_Watch_Filter.jpg)
+
+###  SNS Confirmation
+![SNS Confirmation](images/SNS-Confirmation.jpg)
+
+###  Email Alert
+![Email Alert](images/Email_Alert.png)
+
+
 
 ---
 
-## ⚠️ Challenges & Fix
+##  Challenges & Fix
 
 **Problem:** Alarm was not triggering  
 **Cause:** Metric used *AVERAGE* instead of *SUM*  
@@ -61,7 +68,7 @@ images/
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 - Real-time monitoring of sensitive actions  
 - Automated alerting system  
 - Uses multiple AWS services together  
@@ -69,20 +76,20 @@ images/
 
 ---
 
-## 📄 Documentation
+##  Documentation
 Detailed report available in:
 `docs/aws-security-monitoring.pdf`
 
 ---
 
-## 💡 Use Case
+##  Use Case
 Detect unauthorized access to credentials, API keys, or secrets in cloud environments.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Manav Shailesh**
 
 ---
 
-⭐ If you like this project, consider starring the repo!
+ If you like this project, consider starring the repo!
